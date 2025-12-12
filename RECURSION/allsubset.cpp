@@ -1,22 +1,28 @@
 #include<bits/stdc++.h>
 using namespace std;
-void allsubset(string s, int n)
+void allsubset(string ip,string op)
 {
-    string ans;
-    if(n==0)
+    if(ip.length()==0)
     {
-        cout<<" "<<endl; 
+        cout<<op<<" ";
         return;
     }
-    allsubset(s,n-1);
+    string op1=op;
+    string op2=op;
+    op2.push_back(ip[0]);
+    ip.erase(ip.begin()+0);
+    allsubset(ip,op1);
+    allsubset(ip,op2);
     
 }
 int main()
 {
-    string s;
-    cin>>s;
-    int n=s.length();
-    allsubset(s,n);
+    string ip;
+    cout<<"Enter the string: ";
+    cin>>ip;
+    string op="";
+    cout<<"The subsets are: ";
+    allsubset(ip,op);
+    cout<<endl;
     return 0;
-
 }

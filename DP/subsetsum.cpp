@@ -1,3 +1,4 @@
+//check if there is a subset with given sum
 #include<bits/stdc++.h> 
 using namespace std;
 bool isSubsetSum(int set[], int n, int sum) {

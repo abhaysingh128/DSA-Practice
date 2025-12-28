@@ -1,3 +1,4 @@
+//0-1 Knapsack Problem using Dynamic Programming
 #include<bits/stdc++.h>
 using namespace std;
 int knapsack(int W, int wt[], int val[], int n) {

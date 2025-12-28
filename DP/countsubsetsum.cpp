@@ -1,3 +1,4 @@
+//count the number of subsets with given sum
 #include<bits/stdc++.h> 
 using namespace std;
 int countSubsetSum(int arr[], int n, int sum) {

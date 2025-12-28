@@ -1,3 +1,4 @@
+//calculate height of binary tree using recursion
 #include<bits/stdc++.h>
 using namespace std;    
 struct Node

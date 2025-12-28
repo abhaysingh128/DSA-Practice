@@ -1,3 +1,4 @@
+//k-th symbol in grammar using recursion
 #include<bits/stdc++.h>
 using namespace std;
 int kthGrammar(int n, int k) {

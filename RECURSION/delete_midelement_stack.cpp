@@ -1,3 +1,4 @@
+//delete middle element of stack using recursion
 #include<bits/stdc++.h>
 using namespace std;
 void deletemid(stack<int>& st, int size)

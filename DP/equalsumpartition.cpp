@@ -1,3 +1,4 @@
+//check if array can be partitioned into two subsets with equal sum
 #include<bits/stdc++.h> 
 using namespace std;
 bool findEqualSumPartition(int arr[], int n) { 

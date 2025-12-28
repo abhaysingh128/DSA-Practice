@@ -1,3 +1,4 @@
+//reverse a stack using recursion
 #include<bits/stdc++.h>
 using namespace std;
 void insertAtBottom(stack<int>& st, int element);

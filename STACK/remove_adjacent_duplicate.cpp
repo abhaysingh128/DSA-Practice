@@ -1,3 +1,4 @@
+//rmove all adjacent duplicates in a string
 #include<bits/stdc++.h>
 using namespace std;
 string removeDuplicates(string s) {

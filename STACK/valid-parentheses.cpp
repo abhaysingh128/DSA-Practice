@@ -1,3 +1,4 @@
+//check if the given parentheses string is valid or not
 #include<bits/stdc++.h>
 using namespace std;
 bool isValid(string s) {

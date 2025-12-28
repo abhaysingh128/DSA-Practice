@@ -1,3 +1,4 @@
+//print all subsets of a string using recursion
 #include<bits/stdc++.h>
 using namespace std;
 void allsubset(string ip,string op)

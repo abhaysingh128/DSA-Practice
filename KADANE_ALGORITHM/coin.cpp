@@ -8,7 +8,7 @@ void solve(int arr[],int n,int money){
         int sum=0;
         for(int j=0;j<n;j++)
         {
-            if(money%arr[j]==0) {
+            if(money%arr[j]==0){
                 cout<<"true"<<endl;
                 return;
             }

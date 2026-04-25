@@ -51,21 +51,21 @@ void reverse(ListNode* head,int times)
         return res;
      }
 
-     int main(){
-    ListNode* head=new ListNode(1);     
+int main(){
+ListNode* head=new ListNode(1);     
 
-    head->next=new ListNode(2);     
-    head->next->next=new ListNode(3);     
-    head->next->next->next=new ListNode(4);                 
-    head->next->next->next->next=new ListNode(5);   
-    int k=3;
-    ListNode* newhead=swapPairs(head,k);
-    ListNode* temp=newhead;
-    while(temp)
-    {
-        cout<<temp->val<<" ";
-        temp=temp->next;
-    }
-    cout<<endl;
-    return 0;
+head->next=new ListNode(2);     
+head->next->next=new ListNode(3);     
+head->next->next->next=new ListNode(4);                 
+head->next->next->next->next=new ListNode(5);   
+int k=3;
+ListNode* newhead=swapPairs(head,k);
+ListNode* temp=newhead;
+while(temp)
+{
+    cout<<temp->val<<" ";
+    temp=temp->next;
+}
+cout<<endl;
+return 0;
 }

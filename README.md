@@ -1,34 +1,12 @@
-# Overview
+# DSA Practice
 
-This repository contains various Data Structures and Algorithms (DSA) implementations in multiple programming languages. The focus is on learning and mastering the concepts through coding.
+This is a personal repository for tracking my daily progress in solving DSA (Data Structures and Algorithms) coding problems. 
 
-# Topics
+## Daily Problem Solving
+I aim to solve at least one DSA problem each day to enhance my problem-solving skills and understanding of various algorithms and data structures.
 
-- Arrays
-- Linked Lists
-- Stacks
-- Queues
-- Trees
-- Graphs
-- Searching Algorithms
-- Sorting Algorithms
+## Learning Journey
+This repository also documents my learning journey through various concepts in DSA. I am continually exploring new topics and improving my knowledge.
 
-# Getting Started
-
-## Prerequisites
-- A basic understanding of programming concepts.
-- Relevant programming language installed on your machine.
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/abhaysingh128/DSA-Practice.git
-   ```
-2. Navigate to the directory:
-   ```bash
-   cd DSA-Practice
-   ```
-3. Follow the instructions for your specific language.
-
-## Usage
-- Select the folder corresponding to the data structure or algorithm you want to implement, and follow the example files provided.
+## Interview Preparation
+Additionally, I am using this repository as a resource for my interview preparation, ensuring that I practice a wide range of problems that are commonly seen in technical interviews.
